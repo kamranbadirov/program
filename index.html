@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Career-First Engineering Campaigns</title>
+<style>
+  :root{
+    --bg:#f5f3ee; --paper:#fffdfa; --ink:#161616; --muted:#68645e;
+    --line:#1d1d1d; --soft:#e9e4da; --accent:#262626;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height:1.5;
+  }
+  .wrap{max-width:1100px;margin:0 auto;padding:56px 24px 100px}
+  h1{font-size:clamp(42px,7vw,84px);line-height:.95;letter-spacing:-.055em;margin:0 0 18px}
+  .lede{max-width:780px;font-size:20px;color:var(--muted);margin:0 0 28px}
+  .rule{
+    border:2px solid var(--line); background:var(--paper); padding:20px 22px; margin:26px 0 36px;
+    font-size:18px; font-weight:700;
+  }
+  .status{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 42px
+  }
+  .stat{border:1.5px solid var(--line);padding:16px;background:var(--paper)}
+  .stat b{display:block;font-size:24px}
+  .stat span{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  details{
+    background:var(--paper);border:3px solid var(--line);margin:18px 0;
+    box-shadow:6px 6px 0 var(--line);
+  }
+  summary{
+    cursor:pointer;list-style:none;padding:28px 28px;display:flex;gap:20px;align-items:center;
+    font-weight:850;font-size:clamp(25px,3.2vw,42px);letter-spacing:-.035em;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary:after{content:"＋";margin-left:auto;font-size:32px;line-height:1}
+  details[open] summary:after{content:"×"}
+  .tag{
+    flex:0 0 auto;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    border:1.5px solid var(--line);padding:6px 8px;font-weight:800;
+  }
+  .inside{border-top:3px solid var(--line);padding:28px}
+  .grid{display:grid;grid-template-columns:1.05fr 1.95fr;gap:30px}
+  h2{font-size:28px;margin:0 0 10px;letter-spacing:-.025em}
+  h3{font-size:17px;text-transform:uppercase;letter-spacing:.08em;margin:26px 0 8px}
+  p{margin:8px 0 14px}
+  ul{padding-left:22px}
+  li{margin:7px 0}
+  .why{font-size:18px}
+  .week{
+    border-top:1px solid #aaa;padding:16px 0;
+    display:grid;grid-template-columns:92px 1fr;gap:16px
+  }
+  .week:first-child{border-top:0}
+  .wk{font-weight:900;font-size:15px;text-transform:uppercase}
+  .week strong{display:block;margin-bottom:4px}
+  .deliverable{
+    padding:12px 14px;background:var(--soft);margin-top:8px;font-size:14px
+  }
+  .checklist label{display:block;margin:8px 0;cursor:pointer}
+  .checklist input{transform:scale(1.2);margin-right:9px}
+  code{background:#eee9df;padding:2px 5px}
+  .red{font-weight:800;text-decoration:underline;text-decoration-thickness:3px}
+  .footer{margin-top:38px;color:var(--muted);font-size:14px}
+  @media(max-width:760px){
+    .status{grid-template-columns:1fr 1fr}
+    .grid{grid-template-columns:1fr}
+    .week{grid-template-columns:1fr}
+    summary{padding:22px 18px}
+    .inside{padding:20px 18px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="tag">2026–2027 operating plan</div>
+  <h1>Career-First Engineering Campaigns</h1>
+  <p class="lede">The objective is not to finish the internet. The objective is to become materially harder to reject for a better-paying software engineering role while building deep foundations that compound.</p>
+
+  <div class="rule">
+    ONE primary campaign at a time. Job search + interview practice stay active in parallel.
+    Everything else is a library, not a debt.
+  </div>
+
+  <div class="status">
+    <div class="stat"><b>20–24h</b><span>weekly outside-work target</span></div>
+    <div class="stat"><b>8–12</b><span>focused weeks per campaign</span></div>
+    <div class="stat"><b>1</b><span>main technical campaign</span></div>
+    <div class="stat"><b>Now</b><span>start applying — never “after ready”</span></div>
+  </div>
+
+  <details open>
+    <summary><span class="tag">Always on</span> LAND THE BETTER JOB</summary>
+    <div class="inside">
+      <div class="grid">
+        <div>
+          <h2>This outranks everything.</h2>
+          <p class="why">Do not spend six months “preparing” before applying. Your current experience is already marketable. The learning plan exists to increase hit rate while applications are already moving.</p>
+          <h3>Weekly allocation</h3>
+          <ul>
+            <li><b>8–10h:</b> DSA / coding interviews</li>
+            <li><b>4–5h:</b> applications, referrals, recruiter calls, behavioral prep</li>
+            <li><b>2h:</b> system-design / production stories</li>
+            <li><b>8–10h:</b> current technical campaign</li>
+          </ul>
+          <h3>DSA rule</h3>
+          <p>3–4 Blind 75 problems/day is fine temporarily, but optimize for <b>recall + pattern recognition</b>, not raw count. A problem is not “done” until you can re-solve it cold.</p>
+        </div>
+        <div>
+          <div class="week"><div class="wk">Every week</div><div>
+            <strong>Pipeline</strong>
+            8–12 high-quality applications. 5 targeted referral/outreach messages. Track every role and follow-up.
+            <div class="deliverable">Deliverable: active interview pipeline, not a prettier study plan.</div>
+          </div></div>
+          <div class="week"><div class="wk">Every week</div><div>
+            <strong>Coding</strong>
+            5 timed sessions. Re-solve misses after 2–3 days. Maintain a one-page pattern sheet: two pointers, sliding window, stack, BFS/DFS, heap, intervals, binary search, backtracking, DP.
+          </div></div>
+          <div class="week"><div class="wk">Every week</div><div>
+            <strong>Interview narrative</strong>
+            Practice 2 stories from your real work: production bug, ownership, disagreement, performance improvement, ambiguous project, failure. Say exactly what <i>you</i> did.
+          </div></div>
+          <div class="week"><div class="wk">Every 2 weeks</div><div>
+            <strong>Mock loop</strong>
+            One coding mock + one 30–45 min system-design/backend discussion. Record where your explanation breaks.
+          </div></div>
+          <div class="checklist">
+            <h3>Exit criteria</h3>
+            <label><input type="checkbox"> I can solve most common Medium patterns in ~25–35 minutes.</label>
+            <label><input type="checkbox"> I have 6 strong STAR/technical stories from real work.</label>
+            <label><input type="checkbox"> I can design and defend a typical web/backend system.</label>
+            <label><input type="checkbox"> I have an active pipeline rather than waiting to “feel ready.”</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Campaign 01 · next</span> SYSTEMS + NETWORKING: MAKE THE WEB PHYSICAL</summary>
+    <div class="inside">
+      <div class="grid">
+        <div>
+          <h2>10 weeks. One question.</h2>
+          <p class="why"><b>What actually happens from <code>run program</code> to process → file descriptor → socket → HTTP request → server response?</b></p>
+          <p>This is where your current reading list belongs. Do not read every source cover-to-cover. Use each source for a specific layer.</p>
+          <h3>Primary build</h3>
+          <p><b>Finish the CodeCrafters HTTP Server.</b> Then rebuild the core yourself in a small repo without the scaffold.</p>
+          <h3>Commit rule</h3>
+          <p>Frequent commits are good, but <span class="red">10–20 commits/day is not the objective.</span> Commit at coherent learning checkpoints. A clean history of 3 meaningful commits beats 17 “progress” commits.</p>
+        </div>
+        <div>
+          <div class="week"><div class="wk">Week 1</div><div>
+            <strong>Processes: stop treating programs as magic.</strong>
+            OSTEP ch. 5 Process API. CS:APP ch. 1 selectively. Write tiny fork/exec/wait experiments.
+            <div class="deliverable">Explain process vs program, parent/child, exec, exit status without notes.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 2</div><div>
+            <strong>Unix I/O model.</strong>
+            TLPI ch. 4–6 selectively. Kernighan & Pike ch. 2–3. Open/read/write/close; stdin/stdout/stderr; redirection.
+            <div class="deliverable">Implement file copy + redirection experiments using low-level APIs.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 3</div><div>
+            <strong>Pipes, processes, shell intuition.</strong>
+            Build a minimal shell: command execution, <code>&gt;</code>, one pipe, exit status.
+            <div class="deliverable">A shell you can explain syscall-by-syscall.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 4</div><div>
+            <strong>TTY / PTY / job-control questions.</strong>
+            TLPI 24–27 selectively → ch. 34 → ch. 62. Do not memorize terminal trivia; trace an interactive shell session.
+            <div class="deliverable">Draw: keyboard → terminal emulator → PTY → shell → child process.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 5</div><div>
+            <strong>Networking model.</strong>
+            Top-Down 1.5, 2.1.2, 2.1.3, 2.1.5. Focus on processes communicating, transport service, encapsulation.
+            <div class="deliverable">Explain what changes at each layer when an HTTP request leaves your laptop.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 6</div><div>
+            <strong>HTTP as bytes, not a library call.</strong>
+            Top-Down 2.2.1 + 2.2.3. Use <code>curl -v</code>, netcat, browser devtools. Manually send an HTTP request.
+            <div class="deliverable">Parse a raw request and produce a raw HTTP response by hand.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 7</div><div>
+            <strong>Sockets.</strong>
+            Top-Down 2.6.2 + CS:APP ch. 11 selectively. Finish the socket/listener/request portions of CodeCrafters.
+            <div class="deliverable">TCP echo server + HTTP server; explain bind/listen/accept/read/write.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 8</div><div>
+            <strong>Concurrency.</strong>
+            Skim CS:APP ch. 12. Compare sequential, thread-per-connection, and async models. Connect to your asyncio reading.
+            <div class="deliverable">Benchmark two concurrency approaches under multiple clients.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 9</div><div>
+            <strong>Rebuild without the rails.</strong>
+            New empty repository. Rebuild a small HTTP/1.1 server without looking at the CodeCrafters implementation first.
+            <div class="deliverable">Routes, headers, body, files, concurrent clients, logs.</div>
+          </div></div>
+          <div class="week"><div class="wk">Week 10</div><div>
+            <strong>Instrument + ship.</strong>
+            Use <code>strace</code>/<code>lsof</code>, benchmark, document architecture, draw packet/process diagrams, write a serious README.
+            <div class="deliverable">A public project that demonstrates systems understanding, not just completion badges.</div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Campaign 02</span> BACKEND DEPTH: PYTHON + DJANGO + POSTGRES</summary>
+    <div class="inside">
+      <div class="grid">
+        <div>
+          <h2>Highest direct career ROI.</h2>
+          <p class="why">Turn your existing professional stack into an unfair advantage. You do not need twelve frameworks. You need to sound and operate like someone who has looked underneath the one they use every day.</p>
+          <h3>Resources</h3>
+          <ul>
+            <li>Fluent Python — selected data model / iterator / generator / concurrency sections</li>
+            <li>Django source for request lifecycle, QuerySet, middleware</li>
+            <li>PostgreSQL docs + EXPLAIN ANALYZE</li>
+            <li>Your real work codebase whenever a concept maps directly</li>
+          </ul>
+        </div>
+        <div>
+          <div class="week"><div class="wk">Weeks 1–2</div><div><strong>Python runtime model.</strong> Data model, mutability, iterators/generators, descriptors, closures, import behavior. Inspect with <code>dis</code>.</div></div>
+          <div class="week"><div class="wk">Weeks 3–4</div><div><strong>Django request lifecycle.</strong> URL resolution → middleware → view/DRF → ORM → response. Read actual source at each hop.</div></div>
+          <div class="week"><div class="wk">Weeks 5–6</div><div><strong>SQL performance.</strong> Indexes, joins, N+1, select_related/prefetch_related, EXPLAIN ANALYZE, transactions and locks.</div></div>
+          <div class="week"><div class="wk">Weeks 7–8</div><div><strong>Background work + caching.</strong> Celery/Redis mental model, retries, idempotency, cache invalidation, failure modes.</div></div>
+          <div class="week"><div class="wk">Week 9</div><div><strong>Debugging/profiling.</strong> pdb, logging, correlation IDs, py-spy/cProfile, git bisect. Reproduce bugs deliberately.</div></div>
+          <div class="week"><div class="wk">Week 10</div><div><strong>Capstone.</strong> Build/upgrade one backend service and publish architecture, load-test numbers, bottlenecks found, and tradeoffs.</div></div>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Campaign 03</span> DATABASES + DISTRIBUTED SYSTEMS</summary>
+    <div class="inside">
+      <div class="grid">
+        <div>
+          <h2>After OS/networking.</h2>
+          <p>Now replication, consistency, logs, caches, queues and failure modes will attach to machinery you already understand.</p>
+          <p><b>Primary:</b> selected DDIA chapters + hands-on Postgres/Redis experiments. One CodeCrafters Redis track is an excellent fit here.</p>
+        </div>
+        <div>
+          <div class="week"><div class="wk">Weeks 1–2</div><div><strong>Storage/indexes.</strong> B-trees, logs, pages, cache behavior.</div></div>
+          <div class="week"><div class="wk">Weeks 3–4</div><div><strong>Transactions.</strong> Isolation, locks, MVCC, deadlocks. Reproduce anomalies locally.</div></div>
+          <div class="week"><div class="wk">Weeks 5–6</div><div><strong>Replication/partitioning.</strong> Failure cases before terminology.</div></div>
+          <div class="week"><div class="wk">Weeks 7–9</div><div><strong>Build.</strong> CodeCrafters Redis or a tiny persistent KV store with protocol, TTL, persistence, concurrency.</div></div>
+          <div class="week"><div class="wk">Week 10</div><div><strong>Design.</strong> Defend tradeoffs for a scalable service using cache, queue, DB, retries, idempotency.</div></div>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Campaign 04</span> COMPILERS / PL — THE DEEP CURIOSITY CAMPAIGN</summary>
+    <div class="inside">
+      <div class="grid">
+        <div>
+          <h2>Do this later, guilt-free.</h2>
+          <p>This is highly valuable intellectual training, but it does not outrank landing the next job. When its turn arrives: <b>Crafting Interpreters first; formal PL theory later.</b></p>
+        </div>
+        <div>
+          <div class="week"><div class="wk">Weeks 1–3</div><div><strong>Lexer + parser + AST.</strong> Build, don't merely read.</div></div>
+          <div class="week"><div class="wk">Weeks 4–6</div><div><strong>Tree-walk interpreter.</strong> Environments, scope, functions, control flow.</div></div>
+          <div class="week"><div class="wk">Weeks 7–9</div><div><strong>Bytecode / VM.</strong> Stack machine, call frames, memory.</div></div>
+          <div class="week"><div class="wk">Week 10+</div><div><strong>Extension.</strong> Add one language feature you design yourself.</div></div>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Optional visual-build campaign</span> CANVAS / VISUALIZER — ONLY IF IT STILL PULLS YOU</summary>
+    <div class="inside">
+      <p>Your 80-day plan has excellent pedagogy, but it is too large to insert ahead of career priorities. Compress it into a campaign: render loop → state/render separation → grid/input → record/replay → heap/pathfinding → profiling → ship.</p>
+      <p><b>Rule:</b> this campaign exists to repair the “I know the algorithm but couldn't build the artifact” gap. It is not required for backend employability.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Library · no obligation</span> PARKED MATERIAL</summary>
+    <div class="inside">
+      <p>Good resources. Not current assignments.</p>
+      <ul>
+        <li>SICP</li>
+        <li>You Don't Know JS Yet</li>
+        <li>High Performance Browser Networking</li>
+        <li>The Architecture of Open Source Applications</li>
+        <li>Think Like (a) Git / Git From the Bottom Up</li>
+        <li>How To Become A Hacker</li>
+        <li>Learning React</li>
+        <li>Terraform: Up & Running</li>
+        <li>David Beazley courses</li>
+        <li>Destroy All Software</li>
+        <li>formal PL theory / information theory / broad architecture reading</li>
+      </ul>
+      <p><b>Permission:</b> open these when a campaign calls for them or when you simply want to read for pleasure. You do not owe them completion.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><span class="tag">Operating rules</span> HOW NOT TO RUIN THE PLAN</summary>
+    <div class="inside">
+      <ul>
+        <li><b>Never run two deep campaigns at once.</b></li>
+        <li><b>Applications begin now.</b> No “I’ll apply once I finish OS/networking.”</li>
+        <li><b>Projects beat resource completion.</b> Stop reading when you have enough to build the next thing.</li>
+        <li><b>AI may explain, critique, test, or review.</b> During deliberate-practice builds, you write the core mechanism yourself.</li>
+        <li><b>Rebuild from memory.</b> Every campaign contains at least one blank-folder rebuild.</li>
+        <li><b>Measure.</b> Benchmark, profile, test, inspect syscalls/queries/packets. Convert claims into observations.</li>
+        <li><b>Ship.</b> README, diagrams, benchmarks, lessons, and a runnable artifact.</li>
+        <li><b>Stop at the campaign boundary.</b> Unfinished chapters can remain unfinished.</li>
+      </ul>
+    </div>
+  </details>
+
+  <p class="footer">Checkboxes are saved locally in this browser. This page is intentionally finite: the “library” is allowed to grow; the active plan is not.</p>
+</div>
+
+<script>
+  const key='career-campaign-checkboxes-v1';
+  const boxes=[...document.querySelectorAll('input[type="checkbox"]')];
+  const state=JSON.parse(localStorage.getItem(key)||'{}');
+  boxes.forEach((b,i)=>{
+    b.checked=!!state[i];
+    b.addEventListener('change',()=>{
+      const s={}; boxes.forEach((x,j)=>s[j]=x.checked);
+      localStorage.setItem(key,JSON.stringify(s));
+    });
+  });
+</script>
+</body>
+</html>
